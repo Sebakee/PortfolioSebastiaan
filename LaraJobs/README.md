@@ -1,1 +1,1 @@
-<h1>Go to preview fotos to see how the website looks like and some  videos to show some funcionalities </h1>
+<h3> Go to preview photos to see what the website looks like. LaraJobs is a website where you can post and find vacancies for jobs in laravel. you have full working search system where you can look up a word and if the vacancie got that word in its name,tags or even place that vacancie will show up. </h3>
