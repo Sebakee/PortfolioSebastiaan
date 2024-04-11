@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    padding-left: 12px;
+    background-color: linear-gradient(90deg, #fff0d9, #fbb141);	
+    background-image: url(Images/camera\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+
+
+ul {
+    background-color: #333;
+    margin: 30px -30px 0 -30px;
+    padding: 0 0 0 30px;
+    overflow: hidden;
+
+}
+
+li {
+    display: inline;
+    float: left;
+
+}
+
+
+a {
+    display: block;
+    padding: 10px;
+
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    text-decoration: none;
+}
+
+form {
+    margin: 200px 0 0 0;
+}
+
+.toevoegen {
+    margin: 5px 0 0 0;
+    padding: 3px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 110px;
+    
+    background: #f1f1f1;
+}
+
+.toevoeg {
+    margin: 0 0 0 0;
+    padding: 3px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 110px;
+    
+    background: #f1f1f1;
+}
+
+.toevoegZ{
+    margin: 0;
+}
+
+form input[type=submit]{
+    margin: 5px 0 0 0 ;
+}
+
+form label {
+    padding: 10px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button {
+    float: left;
+}
+
+form button {
+    float: left;
+    width: 40px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #111;
+}
+
+form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+table {
+    margin: 0 0 0 500px;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+
+
+th {
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 0 0 5px 0;
+}
+
+td{
+    padding: 3px 0 3px 0;
+}
+
+tr:nth-child(even) {
+    background-color: #fff0d9;
+}
+
+.formInvoer {
+    margin: 15px 0 0 500px;
+    background-color: #fff0d9;  
+    color: rgb(0, 0, 0);
+    width: 410px;
+}
+
+
+.formInput {
+    margin-top: 10px;
+    margin-left: 200px;
+    min-height: 12px;
+}
+
+.tekst {
+    max-height: 12px;
+}
+
+.zoek{
+    margin: 200px 0 0 500px;
+}
+
+.zoeken{
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 110px;
+    
+    background: #f1f1f1;
+}
+
+.verhuren{
+    margin: 50px 0 0 0;
+}
+
+.exemplaar{
+    margin: 7px 0 0 0;
+}
+
+
+    
+

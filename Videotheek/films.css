@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+ul {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    display: inline;
+    float: left;
+
+}
+
+
+a {
+    display: block;
+    padding: 10px;
+
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
+
+form {
+    padding-top: 20px;
+}
+
+form input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 110px;
+    background: #f1f1f1;
+}
+
+form label {
+    padding: 10px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button {
+    float: left;
+}
+
+form button {
+    float: left;
+    width: 40px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #111;
+}
+
+form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+table {
+
+    width: 500px;
+    border-collapse: collapse;
+}
+
+
+
+th {
+    background-color: #333;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.formInvoer {
+    margin-top: 10px;
+    background-color: #b8a35e;
+    color: white;
+}
+
+.formInput {
+    margin-top: 10px;
+    margin-left: 200px;
+    min-height: 12px;
+}
+
+.tekst {
+    max-height: 12px;
+}
+
+body {
+    padding-left: 12px;
+    background-color: #FAEBD7;
+}

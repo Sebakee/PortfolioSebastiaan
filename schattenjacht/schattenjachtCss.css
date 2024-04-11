@@ -1,0 +1,132 @@
+
+body{
+    background-image: url(img/bladeren.jpg);
+    background-size: cover;
+  }
+  
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    color: rgb(32, 255, 32);
+    margin: 2% 0 0 37%
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: rgba(185, 255, 174, 0.8);
+    width: 32%;
+    margin-top: 1%;
+    margin-left: 30%;
+    
+  
+  }
+  
+  .grid-item {
+  
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  
+  .muur{
+    background-color: rgb(183, 0, 0);
+  }
+  
+  .kist{
+    border-radius: 50%;
+    background-color: gold;
+  }
+  
+  .schattenjager{
+    border-radius: 50%;
+    background-color: green;
+  }
+  
+  .vijand{
+    border-radius: 50%;
+    background-color: red;
+  }
+  
+  #top {
+    margin-top: 3%;
+  }
+  
+  #coin {
+    width: 3%;
+    margin: 0 0.5% 0 0;
+    float: right;
+  }
+  
+  #gold{
+    font-size: 1.5em;
+    color: #FFD700;
+    float: right;
+    margin: 0.7% 39% 0 0;
+  }
+  
+  .button-19 {
+    background-color: #0e7e17;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0 0 0 32%;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 10%;
+  }
+  
+  .button-19:after {
+    background-clip: padding-box;
+    background-color: #13a026;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button-19:main,
+  .button-19:focus {
+    user-select: auto;
+  }
+  
+  .button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-19:disabled {
+    cursor: auto;
+  }
+  
+  .button-19:active {
+    border-width: 4px 0 0;
+    background: none;
+  }

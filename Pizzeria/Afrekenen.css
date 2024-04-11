@@ -1,0 +1,154 @@
+body{
+    background-color: #fff3de;
+}
+
+h1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background: url(images/pizza-3000271_1280\ -\ kopie.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.titel{
+    background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(255, 255, 255), rgb(0, 255, 0));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 142, 0);
+
+}
+
+nav li {
+    color: white;
+    float: left;
+    background-color: rgb(0, 142, 0);
+    margin: 0;
+    
+}
+
+nav li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 6px solid rgb(0, 142, 0) ;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    border-color: rgb(203, 203, 203);
+}
+
+form {
+    padding-top: 20px;
+    text-align: left;
+  }
+  
+  form input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    height: 10px;
+    padding-top: 15px;
+    width: 120px;
+    background: #f1f1f1;
+  }
+  
+  form label {
+    padding: 10px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  
+  
+  form button {
+    font-weight: bold;
+    border: 1px solid rgba(128, 128, 128, 0);
+    background-color: #ffc96c;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #111;
+  }
+  
+  form::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .formInput{
+      margin-left: 200px;
+      padding-bottom: 5px;
+      padding-right: 3px;
+  }
+
+  td {
+    padding-left: 30px;
+    padding-top: 13px;
+    font-size: 17px;
+    color: #656565;
+    max-width: 1000px;
+}
+
+.bestellingen table {
+
+    width: 600px;
+    border-collapse: collapse;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+
+
+.bestellingen th {
+   
+    
+    text-align: left;
+}
+
+.bestellingen tr:nth-child(even) {
+    background-color: rgb(255, 234, 173);
+    color: black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+  

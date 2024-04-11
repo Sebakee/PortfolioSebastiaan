@@ -1,0 +1,133 @@
+body{
+    background-color: #fff3de;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background: url(images/pizza-3000271_1280\ -\ kopie.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.titel{
+    background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(255, 255, 255), rgb(0, 255, 0));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 142, 0);
+
+}
+
+nav li {
+    color: white;
+    float: left;
+    background-color: rgb(0, 142, 0);
+    margin: 0;
+    
+}
+
+nav li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 6px solid rgb(0, 142, 0) ;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    border-color: rgb(203, 203, 203);
+}
+
+.login{
+    float: right;
+    margin-right: 3em;
+}
+
+.menu{
+    padding-top: 200px;
+    float:left; 
+    width: 75%;
+}
+
+.winkelmandje{
+    padding-top: 200px;
+    padding-bottom: 5%;
+    float: right;
+    background-color: #ffe2b0;
+    height: 100%;
+    width: 25%;
+}
+
+h2{
+    text-align: center;
+    color: rgb(223, 2, 2);
+}
+
+.add{
+    height: 20px;
+}
+
+td {
+    padding-left: 30px;
+    padding-top: 13px;
+    font-size: 17px;
+    color: #656565;
+    max-width: 1000px;
+}
+
+.totaal{
+    padding-top: 10px;
+    text-align: right;
+}
+
+.winkelmandje table{
+    padding-bottom: 100px;
+}
+
+.empty{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.winkelmandje a{
+    font-weight: bold;
+    border: 1px solid rgba(128, 128, 128, 0);
+    background-color: #ffc96c;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    font-size: 23px;
+}
+
+#clear{
+    margin: 0 2em 0 3em;
+}
+
+
+
+

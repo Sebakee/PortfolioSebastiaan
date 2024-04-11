@@ -1,0 +1,52 @@
+a {
+    background-color: none;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+
+
+
+    background-color: #FAEBD7;
+
+
+    font-size: 1.5em;
+
+
+}
+
+
+
+::placeholder {
+    color: $gray;
+}
+
+h1 {
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+form {
+    text-align: center;
+}
+
+.error {
+    padding-top: 14px;
+    font-size: 17px;
+    text-align: center;
+    color: red;
+}
