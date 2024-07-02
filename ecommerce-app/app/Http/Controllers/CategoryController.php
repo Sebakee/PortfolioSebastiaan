@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Category;
+use Illuminate\Support\Arr;
 
 class CategoryController extends Controller
 {
@@ -20,8 +21,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $response['categories'] = $this->category->all();
-        return view('pages.category.index')->with('categories', $response);
+        $categories = $this->category->all();
+        return view('pages.category.index')->with('categories', $categories);
         }
 
     /**
@@ -54,7 +55,8 @@ class CategoryController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $response['category'] = $this->category->find($id);
+        return view('pages.edit')->with($response);
     }
 
     /**
@@ -62,7 +64,10 @@ class CategoryController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $category = $this->category->find($id);
+
+        $category->update(array_merge($category->toArray(), $request->toArray()));
+        return redirect('category');
     }
 
     /**
@@ -70,6 +75,8 @@ class CategoryController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $category = $this->category->find($id);
+        $category->delete();
+        return('category');
     }
 }
