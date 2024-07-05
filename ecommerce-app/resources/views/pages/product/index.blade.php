@@ -79,7 +79,12 @@
                             {{ $product->price}}
                         </td>
                         <td scope="col">
-                            <img src="../images/{{$product->photo}}" alt="" class="w-25">
+                            @if ($product->photo)
+                            <img src="../images/{{$product->photo}}" alt="product image" class="w-25">
+                            @else
+                            <img src="../images/E.jpg" alt="default image" class="w-25">
+                            @endif
+                                
                         </td>
 
                         <td scope="col">
