@@ -1,0 +1,59 @@
+@media (max-width: 1401px){
+    .character{
+        margin: 5% 0 0 0;
+     }
+     
+}
+
+@media (max-width: 1145px){
+
+.character{
+   margin: 5% 0 0 0;
+}
+}
+
+
+@media (max-width: 1080px){
+
+    .character{
+       margin: 5% 0 0 0;
+    }
+}
+
+@media (max-width: 1007px){
+
+
+    .character{
+        margin: 5% 0 0 0;
+     }
+
+}
+
+@media (max-width: 850px){
+    h2{
+        margin: 18% 0 0 40%;
+    }
+
+    .character{
+       margin: 20% 0 0 0;
+    }
+}
+
+@media (max-width: 650px){
+   .offer{
+    font-size: 3em;
+   }
+
+   .aboutMe{
+    font-size: 100px;
+   }
+
+   header{
+    font-size: 100px;
+   }
+}
+
+
+
+
+
